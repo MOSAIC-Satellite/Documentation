@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Deploy docs
@@ -24,5 +27,3 @@ jobs:
           mkdocs gh-deploy --config-file mkdocs.yaml --force
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
