@@ -70,7 +70,36 @@ markdown_extensions:
       tags: 'a script img link object embed'
 
 nav: # Setting up the navigation. The below list will be tabs on left panel
-  - Home: index.md
+  - Home: 
+    - Welcome: index.md
+    - Overview: overview/index.md
+    - Getting your own MOSAIC: getting_mosaic/index.md
+    - Quick Start Guide: quick_start/index.md
+    - Core Documentation: core_documentation/index.md
+    - Publications: publications/index.md
+  - Overview:
+    - Overview: overview/index.md
+    - Design Philosophy: overview/design_philosophy.md
+    - MOSAIC Elements: overview/mosaic_elements.md
+  - Getting Your Own MOSAIC: 
+    - Getting MOSAIC: getting_mosaic/index.md
+    - Self-Assembly: getting_mosaic/self_assemble.md
+    - Purchase MOSAIC: getting_mosaic/purchase_mosaic.md
+  - Quick Start Guide:
+    - Introduction: quick_start/index.md
+    - CubeSat Fundamentals: quick_start/cubesat_fundamentals.md
+    - Getting Started with MOSAIC: quick_start/mosaic_quick_start.md
+    - Becoming a Contributor: quick_start/becoming_contributor.md
+  - Core Documentation:
+    - Core Documentation: core_documentation/index.md
+    - Quick Reference: core_documentation/quick_reference.md
+    - Hardware: 
+      - Overview: core_documentation/hardware/index.md
+    - Software:
+      - Overview: core_documentation/software/index.md
+    - Troubleshooting:
+      - Overview: core_documentation/troubleshooting/index.md
+  - Publications: publications/index.md
 
 extra:
   social:
