@@ -18,10 +18,10 @@ With MOSAIC, you can build a satellite that meets your mission's needs. Everythi
 
 ## How to Use this Site
 
-This site has what you need to learn more about, aquire your own, and use your own MOSAIC mocksat. This site is organized into the following five sections: 
+This site provides you with the resources you need to learn more about, acquire your own, and utilize your own MOSAIC mocksat. The site is organized into the following sections: 
 
 - [Overview:](https://www.mosaicsat.org/overview/) Learn more about the design philosophy behind MOSAIC and how it was created to help learn satellite mission design and operations. 
-- [Getting your own MOSAIC:](https://www.mosaicsat.org/getting_mosaic/) A chapter by chapter walkthrough of assembling your own MOSAIC mocksat.
+- [Getting Your Own MOSAIC:](https://www.mosaicsat.org/getting_mosaic/) A chapter-by-chapter walkthrough of assembling your own MOSAIC mocksat.
 - [Quick Start Guide:](https://www.mosaicsat.org/quick_start/) Already have your own MOSAIC? The *Quick Start Guide* will step you through how to use the mocksat.
-- [Core Documentation:](https://www.mosaicsat.org/core_documentation/) Documentation, resources, and troubleshooting for all peices of the MOSAIC mocksat.
+- [Core Documentation:](https://www.mosaicsat.org/core_documentation/) Documentation, resources, and troubleshooting for all pieces of the MOSAIC mocksat.
 - [Publications:](https://www.mosaicsat.org/publications/) Read the various publications that feature the MOSAIC mocksat and its use. 

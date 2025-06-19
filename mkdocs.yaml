@@ -73,7 +73,7 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
   - Home: 
     - Welcome: index.md
     - Overview: overview/index.md
-    - Getting your own MOSAIC: getting_mosaic/index.md
+    - Getting Your Own MOSAIC: getting_mosaic/index.md
     - Quick Start Guide: quick_start/index.md
     - Core Documentation: core_documentation/index.md
     - Publications: publications/index.md
