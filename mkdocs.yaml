@@ -97,6 +97,10 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
     - Quick Reference: core_documentation/quick_reference.md
     - Hardware: 
       - Overview: core_documentation/hardware/index.md
+      - Main Board: core_documentation/hardware/main_board.md
+      - Power Board: core_documentation/hardware/power_board.md
+      - ProtoBoard: core_documentation/hardware/protoboard.md
+      - Structure: core_documentation/hardware/structure.md
     - Software:
       - Overview: core_documentation/software/index.md
     - Troubleshooting:

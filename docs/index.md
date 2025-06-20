@@ -1,4 +1,4 @@
-# <img src="images/MOSAIC_logo_nob.png" width="80" height="80" alt="Image description"> Welcome to MOSAIC
+# <img src="images/MOSAIC_logo_nob.png" width="80" height="80" alt="MOSAIC logo"> Welcome to MOSAIC
 
 MOSAIC, or *Modular Orbital Satellite for Advanced Innovation and Curriculum*, is an open-source, modular satellite platform designed to advance space technology education and accelerate satellite mission design.
 
