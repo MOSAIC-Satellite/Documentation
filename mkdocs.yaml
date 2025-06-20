@@ -2,6 +2,7 @@ site_name: MOSAIC Satellite
 
 theme: 
   name: material
+  logo: 'images/MOSAIC_logo_nob.png'
   features:
     - navigation.tabs
     - header.autohide
