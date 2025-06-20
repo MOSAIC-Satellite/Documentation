@@ -3,6 +3,7 @@ site_name: MOSAIC Satellite
 theme: 
   name: material
   logo: 'images/MOSAIC_logo_nob.png'
+  favicon: images/favicon.ico
   features:
     - navigation.tabs
     - header.autohide
