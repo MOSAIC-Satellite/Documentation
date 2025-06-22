@@ -35,5 +35,5 @@ The primary objectives of MOSAIC are to increase access to space by reducing the
 ??? note "2. MOSAIC should be customizable and adaptable"
     Mission needs can differ wildly from one to another. One satellite designed to take pictures of Earth can be drastically different from one built for dish TV. In other words, there are a multitude of architectural arrangements for satellites, and MOSAIC should reflect that. While there are still learning opportunities in building a mocksat of singular design, there are far more opportunities in allowing users to create their own satellite. Customizability and adaptability facilitate learning how to build a satellite system tailored to the mission's specific needs. This design philosophy also directly benefits the acceleration of satellite mission design for the same reasons. 
 
-??? note "3. MOSAIC should be accessible."
+??? note "3. MOSAIC should be accessible"
     Finally, accessibility. If hurdles are preventing potential adopters of MOSAIC from using the tool, then that defeats the comparative goal of increasing access to space. The financial cost of MOSAIC should remain low; the parts needed for its use should not be difficult to obtain, and the intricacies of its design and use should not be obscured by copyright laws and inaccessible documentation.

@@ -6,10 +6,14 @@ theme:
   favicon: images/favicon.ico
   features:
     - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
     - header.autohide
     - navigation.path
     - content.code.copy
     - content.code.select
+    - toc.integrate
+    - navigation.top
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -93,11 +97,14 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
     - Getting Started with MOSAIC: quick_start/mosaic_quick_start.md
     - Becoming a Contributor: quick_start/becoming_contributor.md
   - Core Documentation:
-    - Core Documentation: core_documentation/index.md
+    - core_documentation/index.md
     - Quick Reference: core_documentation/quick_reference.md
     - Hardware: 
       - Overview: core_documentation/hardware/index.md
-      - Main Board: core_documentation/hardware/main_board.md
+      - Main Board: 
+        - Main Board: core_documentation/hardware/main_board/main_board.md
+        - Processors: core_documentation/hardware/main_board/processors.md
+        - Function Boards: core_documentation/hardware/main_board/function_boards.md
       - Power Board: core_documentation/hardware/power_board.md
       - ProtoBoard: core_documentation/hardware/protoboard.md
       - Structure: core_documentation/hardware/structure.md
