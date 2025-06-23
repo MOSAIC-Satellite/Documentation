@@ -12,7 +12,6 @@ theme:
     - navigation.path
     - content.code.copy
     - content.code.select
-    - toc.integrate
     - navigation.top
   palette:
     # Palette toggle for automatic mode
@@ -50,6 +49,7 @@ markdown_extensions:
   - abbr
   - def_list
   - admonition
+  - tables
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
