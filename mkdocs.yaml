@@ -93,7 +93,7 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
   - Getting Your Own MOSAIC: 
     - Getting MOSAIC: getting_mosaic/index.md
     - Self-Assembly: 
-      - Overview: getting_mosaic/self_assemble/self_assemble.md
+      - Overview: getting_mosaic/self_assemble/overview.md
   - Quick Start Guide:
     - Introduction: quick_start/index.md
     - CubeSat Fundamentals: quick_start/cubesat_fundamentals.md
