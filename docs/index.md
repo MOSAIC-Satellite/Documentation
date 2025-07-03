@@ -22,4 +22,4 @@ This site provides you with the resources you need to learn more about, acquire 
 - [Getting Your Own MOSAIC:](https://www.mosaicsat.org/getting_mosaic/) A chapter-by-chapter walkthrough of assembling your own MOSAIC mocksat.
 - [Quick Start Guide:](https://www.mosaicsat.org/quick_start/) Already have your own MOSAIC? The *Quick Start Guide* will step you through how to use the mocksat.
 - [Core Documentation:](https://www.mosaicsat.org/core_documentation/) Documentation, resources, and troubleshooting for all pieces of the MOSAIC mocksat.
-- [Publications:](https://www.mosaicsat.org/publications/) Read the various publications that feature the MOSAIC mocksat and its use. 
+- [Contact:](https://www.mosaicsat.org/contact/) Contact us about any questions or comments you have regarding MOSAIC.
