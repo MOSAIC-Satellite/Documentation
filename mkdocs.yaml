@@ -84,11 +84,12 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
     - Getting Your Own MOSAIC: getting_mosaic/index.md
     - Quick Start Guide: quick_start/index.md
     - Core Documentation: core_documentation/index.md
-    - Publications: publications/index.md
+    - Contact: contact/index.md
   - Overview:
     - Overview: overview/index.md
     - Design Philosophy: overview/design_philosophy.md
     - MOSAIC Elements: overview/mosaic_elements.md
+    - Publications: overview/publications.md
   - Getting Your Own MOSAIC: 
     - Getting MOSAIC: getting_mosaic/index.md
     - Self-Assembly: getting_mosaic/self_assemble.md
@@ -114,7 +115,8 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
       - Overview: core_documentation/software/index.md
     - Troubleshooting:
       - Overview: core_documentation/troubleshooting/index.md
-  - Publications: publications/index.md
+  - Contact: 
+    - Contact: contact/index.md
 
 extra:
   social:
