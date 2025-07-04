@@ -104,3 +104,54 @@ Now let's get things ready to have a PCB manufacturer fabricate and assemble the
     </figure>
 7. Choose the number of boards you would like to be assembled with components under the `PCBA Qnt` option. The minimum boards you can have assembled is 2.
 8. Click the `Next` button on the right of the page. 
+9. You will be directed to a top and bottom view of the board. Click the `Next` button to continue.
+10. In the same `production` folder from step 3 above, there are two .csv files named `bom` and `positions`. Upload the `bom.csv` file where it says `Add BOM File` and upload the `positions.csv` file where it says `Add CPL File` (Figure 6). Then click the `Process BOM & CPL` button.
+    <figure markdown="span">
+    ![Figure 6](images\jlcpcb_upload_bom_positions.png)
+      <figcaption>Figure 6: Where to upload the BOM and Positions files found in the main-board-main\Main_Board_V1\production folder</figcaption>
+    </figure>
+
+    !!! warning "Potential error"
+        You may encounter the following error after clicking `Process BOM & CPL`. You can ignore this error and click `Continue` to continue. 
+        
+        <figure markdown="span">
+         ![Error message](images/jlcpcb_upload_error.png){ width=60% height=60% }
+        </figure> 
+
+11. On the next page, ensure that all check boxes on the right side are selected (including those with an exclamation mark next to them), then click `Next`.
+12. The next page will display a 2D/3D rendering of the board, showing all components that JLCPCB will assemble. The files you uploaded previously have the positions that all components are supposed to have on the board, but it's always a good idea to thoroughly inspect the board to ensure everything is in the correct location. If anything appears to be misaligned, click on the component, then use the tools and your keyboard's arrow keys to position it correctly. Click `Next` to continue.
+
+    !!! warning "Missing models"
+        Some board components may be missing 3D models. This means you will see a checkered box where the component model would be (see image below). This is ok and can be ignored. 
+
+        <figure markdown="span">    
+         ![Missing model](images/jlcpcb_missing_model.png){ width=60% height=60% }
+        </figure> 
+
+13. Review the quote and order on the next page then click `Save To Cart`.
+
+    !!! note "Don't purchase yet!"
+        Don't purchase the boards yet! If you're planning to get a MOSAIC Power Board and ProtoBoard, wait to purchase the Main Board until the two others are in your cart—this way, you pay for shipping for all boards at once instead of separately. 
+
+---
+
+### IV. Set up Power Board for fabrication and assembly
+
+The power board is set up with JLCPCB in the same way as the Main Board above. Follow the same steps for the Main Board, but substitute the files from the Power Board repository you downloaded. 
+
+!!! note "Don't worry about the missing pieces"
+    The Power Board has several components that will be assembled manually, rather than through JLCPCB. This means you won't see these components rendered on the board after uploading the bom.csv and positions.csv files. These components will be purchased and assembled, with subsequent steps outlined in this guide.
+
+---
+
+### V. Set up ProtoBoard for fabrication
+
+The ProtoBoard will not have any components on it to be assembled by JLCPCB. For the ProtoBoard, you only need to follow steps 1-4 of the Main Board, using the files specific to the ProtoBoard. Once you complete step 4, click `Save To Cart` on the right side. 
+
+---
+
+### VI. Order the Boards!
+
+Now that you have the boards you need in your cart, it's time to order them! 
+
+Click on the cart icon at the top right of the screen. Make sure to select all the boards with the check boxes on the left then checkout! 

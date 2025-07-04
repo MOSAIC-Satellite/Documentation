@@ -5,7 +5,7 @@ Satellites are often built as a collection of parts called “subsystems” that
 For example, the *power subsystem* comprises all parts of the satellite that control the input and output of its power usage. This includes its energy storage (batteries), solar panels to charge the batteries, and regulators to monitor the flow of power and protect the system from failures. Another example is the *Attitude Determination and Control (ADC) subsystem* which contains components to both determine the orientation of a satellite (its attitude) and to change that orientation if desired.
 
 <figure markdown="span">
- ![Open MOSAIC](images/sat_systems.png){ width=50%, height=50% }
+ ![Open MOSAIC](images/sat_systems.png){ width=80%, height=80% }
   <figcaption>Common subsystems of a space satellite</figcaption>
 </figure>
 
