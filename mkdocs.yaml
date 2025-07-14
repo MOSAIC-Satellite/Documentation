@@ -110,9 +110,10 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
     - Hardware: 
       - Overview: core_documentation/hardware/index.md
       - Main Board: 
-        - Overview: core_documentation/hardware/main_board/main_board.md
+        - Overview: core_documentation/hardware/main_board/index.md
         - Processors: core_documentation/hardware/main_board/processors.md
         - Function Boards: core_documentation/hardware/main_board/function_boards.md
+        - Memory Modules: core_documentation/hardware/main_board/memory_modules.md
       - Power Board: 
         - Overview: core_documentation/hardware/power_board.md
       - ProtoBoard:
