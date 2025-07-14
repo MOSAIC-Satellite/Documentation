@@ -114,12 +114,16 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
         - Processors: core_documentation/hardware/main_board/processors.md
         - Function Boards: core_documentation/hardware/main_board/function_boards.md
         - Memory Modules: core_documentation/hardware/main_board/memory_modules.md
+        - Change Log: core_documentation/hardware/main_board/change_log.md
       - Power Board: 
-        - Overview: core_documentation/hardware/power_board.md
+        - Overview: core_documentation/hardware/power_board/index.md
+        - Change Log: core_documentation/hardware/power_board/change_log.md
       - ProtoBoard:
-        - Overview: core_documentation/hardware/protoboard.md
+        - Overview: core_documentation/hardware/protoboard/index.md
+        - Change Log: core_documentation/hardware/protoboard/change_log.md
       - Structure: 
-        - Overview: core_documentation/hardware/structure.md
+        - Overview: core_documentation/hardware/structure/index.md
+        - Change Log: core_documentation/hardware/structure/change_log.md
     - Software:
       - Overview: core_documentation/software/index.md
     - Troubleshooting:
