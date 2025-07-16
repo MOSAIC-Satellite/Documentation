@@ -121,9 +121,9 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
       - ProtoBoard:
         - Overview: core_documentation/hardware/protoboard/index.md
         - Change Log: core_documentation/hardware/protoboard/change_log.md
-      - Structure: 
-        - Overview: core_documentation/hardware/structure/index.md
-        - Change Log: core_documentation/hardware/structure/change_log.md
+      - Frame: 
+        - Overview: core_documentation/hardware/frame/index.md
+        - Change Log: core_documentation/hardware/frame/change_log.md
     - Software:
       - Overview: core_documentation/software/index.md
     - Troubleshooting:
