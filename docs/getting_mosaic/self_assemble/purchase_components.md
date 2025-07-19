@@ -40,6 +40,8 @@ All components required to assemble a MOSAIC satellite kit can be found in the M
 
 Use this spreadsheet to order the necessary items to complete your kit. The quantity listed for each item is sufficient for one MOSAIC kit.
 
+---
+
 ### II. Purchase compatable modules
 
 In addition to the items listed in the MOSAIC BOM above, you will need to purchase compatible components to use with your MOSAIC satellite. This includes processors and sensors.
