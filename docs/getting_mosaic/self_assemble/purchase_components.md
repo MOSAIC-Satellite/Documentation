@@ -36,7 +36,7 @@ While JLCPCB will assemble most components on the boards, there are a few that w
 
 ### I. Purchase components using the MOSAIC BOM spreadsheet
 
-All components required to assemble a MOSAIC satellite kit can be found in the MOSAIC bill of materials (BOM). 
+All components required to assemble a MOSAIC satellite kit can be found in the [MOSAIC bill of materials (BOM)](https://docs.google.com/spreadsheets/d/1xMUYyzwjdTFx7HzwNHd50U6s08wMuClfGDR2PERgSA4/edit?usp=sharing). 
 
 Use this spreadsheet to order the necessary items to complete your kit. The quantity listed for each item is sufficient for one MOSAIC kit.
 
