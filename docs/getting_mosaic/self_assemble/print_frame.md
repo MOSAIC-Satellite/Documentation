@@ -64,7 +64,7 @@ These files are all found in the `Model_Files` folder of the repository you down
 
 ---
 
-### II. Print Your MOSAIC frame peices
+### II. Print Your MOSAIC frame pieces
 
 Using your 3D printer, print all the pieces of MOSAIC's frame from the .stl files downloaded in the previous step. The following quantities are what you need to print of each .stl file to have a complete MOSAIC frame:
 

@@ -46,7 +46,7 @@ Use this spreadsheet to order the necessary items to complete your kit. The quan
 
 In addition to the items listed in the MOSAIC BOM above, you will need to purchase compatible components to use with your MOSAIC satellite. This includes processors and sensors.
 
-MOSAIC is entirely compatible with the [Sparkfun MicroMod](https://www.sparkfun.com/micromod) line of processors and function boards. Likewise, their line of [Qwiic-compatible sensors](https://www.sparkfun.com/sensors.html) can also be used with MOSAIC's ProtoBoard. 
+MOSAIC is entirely compatible with the [Sparkfun MicroMod](https://www.sparkfun.com/micromod) line of processors and function boards. Likewise, Sparkfun's line of [Qwiic-compatible sensors](https://www.sparkfun.com/sensors.html) can also be used with MOSAIC's ProtoBoard. 
 
 Purchase at least one MicroMod processor and whichever sensors you would like to include with your satellite. 
 

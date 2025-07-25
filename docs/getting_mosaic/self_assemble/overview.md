@@ -1,18 +1,18 @@
-Using its freely available design files, you can make your own MOSAIC mocksat. This guide walks you though how to do this step-by-step. 
+Using its freely available design files, you can make your own MOSAIC mocksat. This guide walks you through how to do this step-by-step. 
 
 !!! note "Off the beaten path"
     Being open-source means you can make any modifications you wish. If you feel comfortable enough, don't be afraid to make changes! For example, you don't have to use the same companies or tools mentioned in this guide. 
 
-    Have an idea on how to improve MOSAIC? Please let us know! You can [contact](https://www.mosaicsat.org/contact/) us or [become a contributor](https://www.mosaicsat.org/quick_start/becoming_contributor/) on our GitHub.
+    Do you have an idea on how to improve MOSAIC? Please let us know! You can [contact](https://www.mosaicsat.org/contact/) us or [become a contributor](https://www.mosaicsat.org/quick_start/becoming_contributor/) on our GitHub.
 
----  
+---
 
 ### Steps For Making Your Own MOSAIC
 
 The four steps for making your own MOSAIC mocksat are outlined below.
 
 !!! info "Before you begin"
-    Some of the steps outlined below require specific equipment to complete the step. Before you begin, it's recommended that you first read about the required equipment for each step to ensure you have everything you need.
+    Some of the steps outlined below require specific equipment to be completed. Before you begin, it's recommended that you first read about the required equipment for each step to ensure you have everything you need.
 
 #### [1. Fabricate Circuit Boards:](https://www.mosaicsat.org/getting_mosaic/self_assemble/fabricate_boards/)
 

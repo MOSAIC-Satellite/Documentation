@@ -101,7 +101,7 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
       - What's Next?: getting_mosaic/self_assemble/whats_next.md
   - Quick Start Guide:
     - Introduction: quick_start/index.md
-    - CubeSat Fundamentals: quick_start/cubesat_fundamentals.md
+    - Suggested Reading: quick_start/suggested_reading.md
     - Getting Started with MOSAIC: quick_start/mosaic_quick_start.md
     - Becoming a Contributor: quick_start/becoming_contributor.md
   - Core Documentation:

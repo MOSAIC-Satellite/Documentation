@@ -4,6 +4,11 @@ MOSAIC’s `Main Board` is the central hub of the mocksat, connecting together a
 
 However, MOSAIC’s `Main Board` is much more than the CDH subsystem. Also included are two slots for interchangeable function boards. These boards add functionality to the `Main Board`, like environmental sensors and radio communication.
 
+??? info "Based on MicroMod Main Board - Double"
+    MOSAIC's Main Board design is based on the MicroMod Main Board - Double from [Sparkfun electronics](https://www.sparkfun.com/sparkfun-micromod-main-board-double.html).
+
+    All Sparkfun MicroMod processors and function boards are compatable with MOSAIC's Main Board. 
+
 <figure markdown="span">
  ![Open MOSAIC](images/main_board_all.png)
   <figcaption>Figure 1: MOSAIC Main board (a) top with attached processor and memory module, (b) top without attached modules, (c) Bottom with two function boards attached, (d) bottom without attached function boards</figcaption>
