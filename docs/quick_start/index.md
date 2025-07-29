@@ -16,18 +16,12 @@
 
     [:octicons-arrow-right-24: Getting started with MOSAIC](https://www.mosaicsat.org/quick_start/mosaic_quick_start/)
 
--   :fontawesome-solid-money-bills:{ .lg .middle } __Estimated Cost__
+-   :fontawesome-solid-hammer:{ .lg .middle } __Become a Contributor__
 
     ---
 
-    ~ $230*
+    If you'd like to contribute to the further development of MOSAIC, find out ways to help out here. 
 
-    *Cost can vary due to different shipping locations and PCB manufacturer pricing for destination country.
-
--   :fontawesome-solid-gauge:{ .lg .middle } __Difficulty__
-
-    ---
-
-    Easy
+    [:octicons-arrow-right-24: Become a Contributor](https://www.mosaicsat.org/quick_start/become_contributor/)
 
 </div>

@@ -20,7 +20,7 @@ This first step guides you through setting up a PCB manufacturer to fabricate an
 
     ---
 
-    ~ $230*
+    ~ $250*
 
     *Cost can vary due to different shipping locations and PCB manufacturer pricing for destination country.
 
@@ -34,7 +34,7 @@ This first step guides you through setting up a PCB manufacturer to fabricate an
 
 ---
 
-### I. Getting the necessary files
+## I. Getting the necessary files
 
 All MOSAIC files are hosted on the MOSAIC [GitHub organization](https://github.com/MOSAIC-Satellite). Each of the three MOSAIC PCBs has its own GitHub repository. You will need to get files from each of these repositories. Follow the steps below to complete this task. 
 
@@ -49,7 +49,7 @@ All MOSAIC files are hosted on the MOSAIC [GitHub organization](https://github.c
 
 ---
 
-### II. Getting set up with the PCB manufacturer
+## II. Getting set up with the PCB manufacturer
 
 Now let's get things ready to have a PCB manufacturer fabricate and assemble the MOSAIC boards. 
 
@@ -65,7 +65,7 @@ Now let's get things ready to have a PCB manufacturer fabricate and assemble the
 
 ---
 
-### III. Set up Main Board for fabrication and assembly
+## III. Set up Main Board for fabrication and assembly
 
 1. While logged in on JLCPCB's website, click the `Order now` button on the site's homepage (Figure 2).
     <figure markdown="span">
@@ -111,7 +111,7 @@ Now let's get things ready to have a PCB manufacturer fabricate and assemble the
       <figcaption>Figure 6: Where to upload the BOM and Positions files found in the main-board-main\Main_Board_V1\production folder</figcaption>
     </figure>
 
-    !!! warning "Potential error"
+    !!! info "Potential error"
         You may encounter the following error after clicking `Process BOM & CPL`. You can ignore this error and click `Continue` to continue. 
         
         <figure markdown="span">
@@ -121,7 +121,7 @@ Now let's get things ready to have a PCB manufacturer fabricate and assemble the
 11. On the next page, ensure that all check boxes on the right side are selected (including those with an exclamation mark next to them), then click `Next`.
 12. The next page will display a 2D/3D rendering of the board, showing all components that JLCPCB will assemble. The files you uploaded previously have the positions that all components are supposed to have on the board, but it's always a good idea to thoroughly inspect the board to ensure everything is in the correct location. If anything appears to be misaligned, click on the component, then use the tools and your keyboard's arrow keys to position it correctly. Click `Next` to continue.
 
-    !!! warning "Missing models"
+    !!! info "Missing models"
         Some board components may be missing 3D models. This means you will see a checkered box where the component model would be (see image below). This is ok and can be ignored. 
 
         <figure markdown="span">    
@@ -130,27 +130,64 @@ Now let's get things ready to have a PCB manufacturer fabricate and assemble the
 
 13. Review the quote and order on the next page then click `Save To Cart`.
 
-    !!! note "Don't purchase yet!"
+    !!! warning "Don't purchase yet!"
         Don't purchase the boards yet! If you're planning to get a MOSAIC Power Board and ProtoBoard, wait to purchase the Main Board until the two others are in your cart—this way, you pay for shipping for all boards at once instead of separately. 
 
 ---
 
-### IV. Set up Power Board for fabrication and assembly
+## IV. Set up Power Board for fabrication and assembly
 
 The power board is set up with JLCPCB in the same way as the Main Board above. Follow the same steps for the Main Board, but substitute the files from the Power Board repository you downloaded. 
 
-!!! note "Don't worry about the missing pieces"
-    The Power Board has several components that will be assembled manually, rather than through JLCPCB. This means you won't see these components rendered on the board after uploading the bom.csv and positions.csv files. These components will be purchased and assembled, with subsequent steps outlined in this guide.
-
 ---
 
-### V. Set up ProtoBoard for fabrication
+## V. Set up ProtoBoard for fabrication
 
 The ProtoBoard will not have any components on it to be assembled by JLCPCB. For the ProtoBoard, you only need to follow steps 1-4 of the Main Board, using the files specific to the ProtoBoard. Once you complete step 4, click `Save To Cart` on the right side. 
 
 ---
 
-### VI. Order the Boards!
+## VI. Set up memory module(s) for fabrication and assembly
+
+It's recommended that you have at least one [memory module](https://www.mosaicsat.org/core_documentation/hardware/main_board/memory_modules/) for your MOSAIC satellite. These modules are expandable memory that plug into the two available slots on the main board and are essential for storing your satellite's sensor data.
+
+MOSAIC's memory modules are all proprietary to the MOSAIC system. This means they cannot be ordered from a third-party distributor and will need to be fabricated in a manner similar to the other MOSAIC boards mentioned above. 
+
+!!! warning "Be sure to follow these steps carefully"
+
+    Even though these memory modules are fabricated similarly to the other boards on this page, there are some differences in the steps involved in their production. Please carefully follow the steps below to avoid any mistakes!
+
+1. Visit the memory modules GitHub Repository. Click on the green `<> Code` button next to the "About" section of the repository, then click `Download ZIP` (Figure 7). This will download the entire repository in a ZIP folder.
+
+    <figure markdown="span">
+    ![Figure 7](images\memory_modules_download_zip.png)
+      <figcaption>Figure 7: Where to find the "Download ZIP" button (red box)</figcaption>
+    </figure>
+
+2. Unzip (extract) the folder to any location on your computer. 
+3. This repository contains files for all memory modules available for MOSAIC and template files for designing your own. Open the folder for the memory module(s) you want to fabricate.
+
+    ??? info "Which memory module should I choose?"
+
+        This decision is based on the needs of your satellite. If you're new to satellite design or MOSAIC, then a sound module to start with would be the "I2C_fram_memory_module."
+
+4. Follow the same steps 1-3 for fabricating MOSAIC's Main Board above using the production files found in the folder of the memory module you chose.
+5. Keep all options found under the board rendering the same **except** for `PCB Thickness`. Change the value for `PCB Thickness` to be `0.8mm`. (Figure 8)
+
+    !!! warning "Don't miss this step!"
+
+        You must change `PCB thickness` to be `0.8mm`. Otherwise, your memory module will not fit into its designated slots on MOSAIC's Main Board. 
+
+    <figure markdown="span">
+    ![Figure 8](images\pcb_thickness_size_setting.png)
+      <figcaption>Figure 8: Where to change the PCB thickness to 0.8mm (red box)</figcaption>
+    </figure>
+
+6. Follow the same steps 5-13 for fabricating MOSAIC's Main board above to finish setting up your memory module(s) and saving them to your cart. 
+
+---
+
+## VII. Order the Boards!
 
 Now that you have the boards you need in your cart, it's time to order them! 
 

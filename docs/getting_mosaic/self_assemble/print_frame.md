@@ -7,8 +7,8 @@ This page will guide you through 3D printing the frame for your MOSAIC satellite
     ---
 
     - Computer 
-    - 3D Printer (optional)
-    - Filament for 3D Printer (optional)
+    - (Optional) 3D printer
+    - (Optional) Filament for 3D printer
 
 -   :fontawesome-solid-stopwatch:{ .lg .middle } __Time to complete__
 
@@ -32,9 +32,9 @@ This page will guide you through 3D printing the frame for your MOSAIC satellite
 
 ---
 
-### About the MOSAIC 3D Printed Frame
+## About the MOSAIC 3D Printed Frame
 
-The MOSAIC satellite's frame is fully 3D printable and modular, designed for rapid assembly and easy modification. The main frame consists of (Figure 1):
+The MOSAIC satellite's frame is fully 3D printable and modular, designed for rapid assembly and easy modification (Figure 1). The frame consists of:
 
 - Two identical main frame pieces
 
@@ -42,11 +42,11 @@ The MOSAIC satellite's frame is fully 3D printable and modular, designed for rap
 
 - Interior 3D printed brackets for securely mounting MOSAIC's circuit boards
 
-Follow the steps below to get your MOSAIC frame.
+Follow the steps below to fabricate your MOSAIC frame.
 
 ---
 
-### I. Downloading the 3D models
+## I. Downloading the 3D models
 
 All necessary STL files are provided via the MOSAIC GitHub repository
 
@@ -64,7 +64,7 @@ These files are all found in the `Model_Files` folder of the repository you down
 
 ---
 
-### II. Print Your MOSAIC frame pieces
+## II. Print Your MOSAIC frame pieces
 
 Using your 3D printer, print all the pieces of MOSAIC's frame from the .stl files downloaded in the previous step. The following quantities are what you need to print of each .stl file to have a complete MOSAIC frame:
 
@@ -78,11 +78,11 @@ Using your 3D printer, print all the pieces of MOSAIC's frame from the .stl file
     - **Infill**: 20–30% is typically sufficient for structural parts.
     - **Supports**: The frame pieces are designed to minimize support needs, but check orientation before slicing.
 
-Final assembly steps of the MOSAIC frame are covered in the [MOSAIC Quick Start Guide](https://www.mosaicsat.org/quick_start/).
+Final assembly steps of the MOSAIC frame are covered in the [MOSAIC Quick Start Guide](https://www.mosaicsat.org/quick_start/mosaic_quick_start/).
 
 ---
 
-### Getting your frame printed without a 3D printer
+## Getting your frame printed without a 3D printer
 
 If you don’t have access to a 3D printer, you may look into the following options instead:
 
@@ -100,7 +100,7 @@ If you don’t have access to a 3D printer, you may look into the following opti
 
 ??? note "How to order"
     
-    - Download the .stl files from GitHub (step I. above).
+    - Download the .stl files from GitHub (step I above).
 
     - Upload/bring them to the service of your choice.
 
