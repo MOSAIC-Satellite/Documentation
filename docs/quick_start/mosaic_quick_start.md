@@ -118,7 +118,55 @@ Sensor data is sent to the satellite's processor using the I^2^C protocol throug
 
 1. Mount any number of your sensors to MOSAIC's ProtoBoard using M2.5 standoffs in the mounting holes (Figure 8) or solder them to the ProtoBoard using header pins. (Figure 9)
 
-- Connect the sensors using a Qwiic cable inserted into any of the Qwiic ports on the ProtoBoard (Figure 10) or connect the soldered-on header pins to the appropriate I^2^C through-hole pin. (Figure 11) Be sure to leave one of the Qwiic ports on the ProtoBoard free. This port will connect your sensors to MOSAIC's Main Board (done in a future step).
+- Connect the sensors using a Qwiic cable inserted into any of the Qwiic ports on the ProtoBoard, (Figure 10) or connect the soldered-on header pins to the appropriate I^2^C through-hole pin. (Figure 11) Be sure to leave one of the Qwiic ports on the ProtoBoard free. This port will connect your sensors to MOSAIC's Main Board (done in a future step).
 
 ### :octicons-arrow-right-24: Attach brackets to MOSAIC boards
+
+Each of MOSAIC's core PCBs (Main Board, Power Board, and ProtoBoard) requires two brackets to be attached to it. (Figure 12) These brackets will secure the boards to MOSAIC's frame. 
+
+To attach these brackets:
+
+1. Starting with any of MOSAIC's core boards, place a bracket on either side of the board at the flat edge of the board's outline so that the holes of the bracket line up with the holes of the board. 
+
+    The flat edge of the bracket should be flush with the flat edge of the board. (Figure 13)
+
+    !!! info "Brackets have two different pairs of holes"
+
+        If you notice the bracket's holes don't align with the holes on the board, try flipping the bracket to the other side. The brackets have two pairs of holes for mounting to MOSAIC's boards and frame, respectively. These pairs of holes have different spacing.  
+
+2. Secure the bracket to the board using the plastic screws and nuts from [MOSAIC's BOM](https://docs.google.com/spreadsheets/d/1xMUYyzwjdTFx7HzwNHd50U6s08wMuClfGDR2PERgSA4/edit?usp=sharing). (Figure 14)  
+
+3. Place another bracket on the same side of the board but opposite edge and secure it to the board with plastic screws and nuts. (Figure 15)
+
+4. Repeat steps 1 - 3 above for the two other MOSAIC core boards. 
+
+??? tip "Tip: Start securing boards to frame"
+
+    Before continuing with your satellite assembly and connecting everything, it may help to secure MOSAIC's three core boards to one of the x-y face pieces of MOSAIC's frame (see the image below). 
+
+    This is based on preference. Some may secure the boards to the frame piece now to determine how everything will fit together, while others prefer to keep their boards off the frame until the end for easy access. 
+
+### :octicons-arrow-right-24: Adhere solar cells to frame pieces
+
+Each face of MOSAIC's frame can hold up to two solar cells. 
+
+These cells adhere to the frame using double-sided tape (or any other adhesive you prefer), and the cables of the cells are wired into the interior of the satellite through openings in the frame pieces. (Figure 16)
+
+You can choose any orientation or placement of these cells on the frame that meets your needs. You may even omit any number of them from your satellite. 
+
+You need to be mindful not to cover anything important. For example, the USB port on the Main Board of your satellite will be accessed from outside the frame. You want to ensure that no solar cells cover the USB. (Figure 17)
+
+To secure your solar cells to MOSAIC's frame pieces:
+
+1. Orient a cell onto the faces of the frame where you would like it to be. 
+
+    Ensure that you can still wire the cable from the cells to the other side of the face and that the cells do not cover anything important.
+
+2. Note where the back of the cell makes contact with MOSAIC's frame.
+
+3. Move the cell and place double-sided tape (or other adhesive) onto the frame where the cell made contact. (Figure 18)
+
+4. Return the cell to its original position, feeding its cable to the other side of the face, then press the cell against the adhesive.
+
+5. Repeat steps 1 - 4 above for all other cells you wish to include. 
 
