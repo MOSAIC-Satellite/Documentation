@@ -14,20 +14,6 @@ theme:
     - content.code.select
     - navigation.top
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -37,6 +23,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
 plugins:
   - search  # To have search functionality on the document
@@ -99,7 +94,7 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
       - Step 3 - Assemble Boards: getting_mosaic/self_assemble/assemble_boards.md
       - Step 4 - Print Frame: getting_mosaic/self_assemble/print_frame.md
       - What's Next?: getting_mosaic/self_assemble/whats_next.md
-  - Quick Start Guide:
+  - Quick-Start Guide:
     - Introduction: quick_start/index.md
     - Suggested Reading: quick_start/suggested_reading.md
     - Getting Started with MOSAIC: quick_start/mosaic_quick_start.md

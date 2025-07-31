@@ -1,10 +1,12 @@
+
+
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-book:{ .lg .middle } __Suggested Reading__
 
     ---
 
-    If you're new to satellite design or electronics, the following curated readings and tutorials may be of help. 
+    If you're new to satellite design, electronics, or MOSAIC, we recommend the following curated readings and tutorials. 
 
     [:octicons-arrow-right-24: Suggested reading](https://www.mosaicsat.org/quick_start/suggested_reading/)
 

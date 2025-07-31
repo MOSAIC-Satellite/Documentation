@@ -7,6 +7,7 @@ This page will guide you through 3D printing the frame for your MOSAIC satellite
     ---
 
     - Computer 
+    - Super glue
     - (Optional) 3D printer
     - (Optional) Filament for 3D printer
 
@@ -36,11 +37,11 @@ This page will guide you through 3D printing the frame for your MOSAIC satellite
 
 The MOSAIC satellite's frame is fully 3D printable and modular, designed for rapid assembly and easy modification (Figure 1). The frame consists of:
 
-- Two identical main frame pieces
+- 2x x-y face pieces
 
-- Removable top/bottom (z-face) panels (attached to the frame using screws)
+- 2x Removable top/bottom (z face) panels (attached to the x-y face pieces using screws)
 
-- Interior 3D printed brackets for securely mounting MOSAIC's circuit boards
+- Interior 3D printed brackets for securely mounting MOSAIC's core circuit boards
 
 Follow the steps below to fabricate your MOSAIC frame.
 
@@ -48,17 +49,17 @@ Follow the steps below to fabricate your MOSAIC frame.
 
 ## I. Downloading the 3D models
 
-All necessary STL files are provided via the MOSAIC GitHub repository
+All necessary .stl files are provided via the MOSAIC GitHub repository
 
 1. Visit the [MOSAIC frame GitHub repository](https://github.com/MOSAIC-Satellite/frame/tree/main).
 2. Click on the green `<> Code` button next to the "About" section of the repository, then click `Download ZIP` (Figure 2). This will download the entire repository in a ZIP folder.
 3. Unzip (extract) the folder to any location on your computer. 
 
-You’ll need three STL files to print a complete frame set:
+You’ll need three .stl files to print a complete frame set:
 
-- Main Frame Piece (main_frame.stl)
-- Top/Bottom Panel (z_face_panel.stl)
-- Bracket (bracket.stl)
+- X-Y Face Piece (`mosaic_xyface.stl`)
+- Z Face Panels (`mosaic_zface.stl`)
+- Bracket (`mosaic_bracket.stl`)
 
 These files are all found in the `Model_Files` folder of the repository you downloaded.
 
@@ -68,9 +69,9 @@ These files are all found in the `Model_Files` folder of the repository you down
 
 Using your 3D printer, print all the pieces of MOSAIC's frame from the .stl files downloaded in the previous step. The following quantities are what you need to print of each .stl file to have a complete MOSAIC frame:
 
-- 2x main_frame.stl
-- 2x z_face_panel.stl
-- 6x bracket.stl (two for each of MOSAIC's circuit boards)
+- 2x `mosaic_xyface.stl`
+- 2x `mosaic_zface.stl`
+- 6x `mosaic_bracket.stl` (two for each of MOSAIC's core circuit boards)
 
 ??? info "Printing Tips"
     - **Material**: PLA is recommended for educational use and ease of printing, but PETG or ABS can provide additional strength if required.
@@ -78,7 +79,23 @@ Using your 3D printer, print all the pieces of MOSAIC's frame from the .stl file
     - **Infill**: 20–30% is typically sufficient for structural parts.
     - **Supports**: The frame pieces are designed to minimize support needs, but check orientation before slicing.
 
-Final assembly steps of the MOSAIC frame are covered in the [MOSAIC Quick Start Guide](https://www.mosaicsat.org/quick_start/mosaic_quick_start/).
+---
+
+## III. (Optional) Glue plastic nuts into frame pieces
+
+The two x-y face pieces and the brackets all have slots that fit the plastic nuts purchased from MOSAIC's BOM. (Figure 3) The plastic nuts act as threading for the plastic screws that secure the frame pieces together. 
+
+It's recommended that you glue the nuts into their slots. This makes the final assembly of your satellite easier. 
+
+1. Apply a small amount of glue to the inner edges of each of the two nut slots on one of the x-y face pieces. (Figure 4)
+
+    !!! tip
+
+        You don't want to apply too much glue. Otherwise, you will end up with a mess and/or a clogged nut. It may be helpful to use a suitable applicator for the glue, such as a Q-Tip. The glue listed in [MOSAIC's BOM](https://docs.google.com/spreadsheets/d/1xMUYyzwjdTFx7HzwNHd50U6s08wMuClfGDR2PERgSA4/edit?usp=sharing) comes with a brush to facilitate application. 
+
+2. Insert a plastic nut into each of these slots and allow to dry. (Figure 5)
+
+3. Repeat steps 1 - 2 above for the two slots on the other x-y face piece and the four slots on each of the brackets. 
 
 ---
 

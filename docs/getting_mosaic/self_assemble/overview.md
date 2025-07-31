@@ -1,4 +1,4 @@
-Using its freely available design files, you can make your own MOSAIC mocksat. This guide walks you through how to do this step-by-step. 
+Using its freely available design files, you can make your own MOSAIC mocksat. This guide walks you through the step-by-step process.
 
 !!! note "Off the beaten path"
     Being open-source means you can make any modifications you wish. If you feel comfortable enough, don't be afraid to make changes! For example, you don't have to use the same companies or tools mentioned in this guide. 
