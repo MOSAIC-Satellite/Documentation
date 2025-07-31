@@ -20,7 +20,7 @@ While JLCPCB will assemble most components on the boards, there are a few that w
 
     ---
 
-    ~ $200*
+    ~ $220*
 
     *Cost can vary due to different shipping locations and regional pricing.
 
@@ -46,7 +46,7 @@ Use this spreadsheet to order the necessary items to complete your kit. The quan
 
 ---
 
-## II. Purchase compatable modules
+## II. Purchase compatible modules
 
 In addition to the items listed in the MOSAIC BOM above, you will need to purchase compatible components to use with your MOSAIC satellite. This includes processors and sensors.
 
@@ -59,3 +59,7 @@ Purchase at least one MicroMod processor and whichever sensors you would like to
 
     - 1x MicroMod processor (The [RP2040](https://www.sparkfun.com/sparkfun-micromod-rp2040-processor.html) or the [ESP32](https://www.sparkfun.com/sparkfun-micromod-esp32-processor.html) are great options to start with)
     - 1x any Qwiic compatible sensor from Sparkfun (the [LSM6DSO 6DoF Breakout](https://www.sparkfun.com/sparkfun-micromod-esp32-processor.html) is a good one to start with)
+
+---
+
+[:octicons-arrow-left-24: Back to step 1](https://www.mosaicsat.org/getting_mosaic/self_assemble/fabricate_boards/){ .md-button } [Next to step 3 :octicons-arrow-right-24:](https://www.mosaicsat.org/getting_mosaic/self_assemble/assemble_boards/){ .md-button }

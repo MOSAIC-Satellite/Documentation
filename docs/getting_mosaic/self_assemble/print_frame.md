@@ -108,3 +108,6 @@ If you don’t have access to a 3D printer, you may look into the following opti
 
     - Order at least two main frame pieces, two z-face panels, and as many brackets as needed.
 
+---
+
+[:octicons-arrow-left-24: Back to step 3](https://www.mosaicsat.org/getting_mosaic/self_assemble/assemble_boards/){ .md-button } [Next to What's Next? :octicons-arrow-right-24:](https://www.mosaicsat.org/getting_mosaic/self_assemble/whats_next/){ .md-button }

@@ -1,6 +1,6 @@
-There are three printed circuit boards (PCBs) that make up the internals of the MOSAIC. You can learn more about these boards in the [MOSAIC elements](https://www.mosaicsat.org/overview/mosaic_elements/) page of the overview section of this site. 
+There are three main printed circuit boards (PCBs) that make up the core of the MOSAIC system. You can learn more about these boards in the [MOSAIC elements](https://www.mosaicsat.org/overview/mosaic_elements/) page of this site. 
 
-This first step guides you through setting up a PCB manufacturer to fabricate and assemble all three MOSAIC boards. 
+This first step in the MOSAIC self-assembly guide walks you through setting up a PCB manufacturer to fabricate and assemble all three core MOSAIC boards and other MOSAIC modules. 
 
 <div class="grid cards" markdown>
 
@@ -143,13 +143,13 @@ The power board is set up with JLCPCB in the same way as the Main Board above. F
 
 ## V. Set up ProtoBoard for fabrication
 
-The ProtoBoard will not have any components on it to be assembled by JLCPCB. For the ProtoBoard, you only need to follow steps 1-4 of the Main Board, using the files specific to the ProtoBoard. Once you complete step 4, click `Save To Cart` on the right side. 
+The ProtoBoard will not have any components on it to be assembled by JLCPCB. For the ProtoBoard, you only need to follow steps 1 - 4 of the Main Board, using the files specific to the ProtoBoard. Once you complete step 4, click `Save To Cart` on the right side. 
 
 ---
 
 ## VI. Set up memory module(s) for fabrication and assembly
 
-It's recommended that you have at least one [memory module](https://www.mosaicsat.org/core_documentation/hardware/main_board/memory_modules/) for your MOSAIC satellite. These modules are expandable memory that plug into the two available slots on the main board and are essential for storing your satellite's sensor data.
+It's recommended that you have at least one [memory module](https://www.mosaicsat.org/core_documentation/hardware/main_board/memory_modules/) for your MOSAIC satellite. These modules are expandable memory that plug into the two available slots on the Main Board and are essential for storing your satellite's sensor data.
 
 MOSAIC's memory modules are all proprietary to the MOSAIC system. This means they cannot be ordered from a third-party distributor and will need to be fabricated in a manner similar to the other MOSAIC boards mentioned above. 
 
@@ -157,7 +157,7 @@ MOSAIC's memory modules are all proprietary to the MOSAIC system. This means the
 
     Even though these memory modules are fabricated similarly to the other boards on this page, there are some differences in the steps involved in their production. Please carefully follow the steps below to avoid any mistakes!
 
-1. Visit the memory modules GitHub Repository. Click on the green `<> Code` button next to the "About" section of the repository, then click `Download ZIP` (Figure 7). This will download the entire repository in a ZIP folder.
+1. Visit the memory modules [GitHub Repository](https://github.com/MOSAIC-Satellite/memory_modules). Click on the green `<> Code` button next to the "About" section of the repository, then click `Download ZIP` (Figure 7). This will download the entire repository in a ZIP folder.
 
     <figure markdown="span">
     ![Figure 7](images\memory_modules_download_zip.png)
@@ -172,7 +172,7 @@ MOSAIC's memory modules are all proprietary to the MOSAIC system. This means the
         This decision is based on the needs of your satellite. If you're new to satellite design or MOSAIC, then a sound module to start with would be the "I2C_fram_memory_module."
 
 4. Follow the same steps 1-3 for fabricating MOSAIC's Main Board above using the production files found in the folder of the memory module you chose.
-5. Keep all options found under the board rendering the same **except** for `PCB Thickness`. Change the value for `PCB Thickness` to be `0.8mm`. (Figure 8)
+5. Keep all options found under the board rendering the same *except* for `PCB Thickness`. Change the value for `PCB Thickness` to be `0.8mm`. (Figure 8)
 
     !!! warning "Don't miss this step!"
 
@@ -183,7 +183,7 @@ MOSAIC's memory modules are all proprietary to the MOSAIC system. This means the
       <figcaption>Figure 8: Where to change the PCB thickness to 0.8mm (red box)</figcaption>
     </figure>
 
-6. Follow the same steps 5-13 for fabricating MOSAIC's Main board above to finish setting up your memory module(s) and saving them to your cart. 
+6. Follow the same steps 5-13 for fabricating MOSAIC's Main Board above to finish setting up your memory module(s) and saving them to your cart. 
 
 ---
 
@@ -192,3 +192,7 @@ MOSAIC's memory modules are all proprietary to the MOSAIC system. This means the
 Now that you have the boards you need in your cart, it's time to order them! 
 
 Click on the cart icon at the top right of the screen. Make sure to select all the boards with the check boxes on the left then checkout! 
+
+---
+
+[:octicons-arrow-left-24: Back to overview](https://www.mosaicsat.org/getting_mosaic/self_assemble/overview/){ .md-button } [Next to step 2 :octicons-arrow-right-24:](https://www.mosaicsat.org/getting_mosaic/self_assemble/purchase_components/){ .md-button }
