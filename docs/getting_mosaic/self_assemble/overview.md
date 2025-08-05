@@ -9,7 +9,7 @@ Using its freely available design files, you can make your own MOSAIC mocksat. T
 
 ### Steps For Making Your Own MOSAIC
 
-The four steps for making your own MOSAIC mocksat are outlined below.
+The four steps for making your own MOSAIC satellite are outlined below.
 
 !!! info "Before you begin"
     Some of the steps outlined below require specific equipment to be completed. Before you begin, it's recommended that you first read about the required equipment for each step to ensure you have everything you need.
