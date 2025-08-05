@@ -7,6 +7,7 @@ By now, you should have everything you need to assemble your own MOSAIC satellit
     - 1x Assembled MOSAIC Main Board
     - 1x Assembled MOSAIC Power Board
     - 1x Assembled MOSAIC ProtoBoard
+    - 1x Choice of processor module
     - All Pieces of MOSAIC's frame
     - Choice of MOSAIC memory module(s)
     - Choice of sensors

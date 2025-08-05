@@ -10,6 +10,7 @@ You should only follow this guide if you have all the necessary pieces of MOSAIC
     - 1x Assembled MOSAIC Power Board
     - 1x Assembled MOSAIC ProtoBoard
     - All Pieces of MOSAIC's frame
+    - 1x Choice of processor module
     - Choice of MOSAIC memory module(s)
     - Choice of sensors
     - All non-optional items listed in the [MOSAIC BOM](https://docs.google.com/spreadsheets/d/1xMUYyzwjdTFx7HzwNHd50U6s08wMuClfGDR2PERgSA4/edit?usp=sharing)

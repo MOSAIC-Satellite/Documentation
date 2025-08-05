@@ -99,6 +99,30 @@ It's recommended that you glue the nuts into their slots. This makes the final a
 
 ---
 
+### IV. Adhere solar cells to frame pieces
+
+Each face of MOSAIC's frame can hold up to two solar cells. 
+
+These cells adhere to the frame using double-sided tape (or any other adhesive you prefer), and the cables of the cells are wired into the interior of the satellite through openings in the frame pieces. (Figure 16)
+
+You can choose any orientation or placement of these cells on the frame that meets your needs. You may even omit any number of them from your satellite. 
+
+You need to be mindful not to cover anything important. For example, the USB port on the Main Board of your satellite will be accessed from outside the frame. You want to ensure that no solar cells cover the USB. (Figure 17)
+
+To secure your solar cells to MOSAIC's frame pieces:
+
+1. Orient a cell onto the faces of the frame where you would like it to be. 
+
+    Ensure that you can still wire the cable from the cells to the other side of the face and that the cells do not cover anything important.
+
+2. Note where the back of the cell makes contact with MOSAIC's frame.
+
+3. Move the cell and place double-sided tape (or other adhesive) onto the frame where the cell made contact. (Figure 18)
+
+4. Return the cell to its original position, feeding its cable to the other side of the face, then press the cell against the adhesive.
+
+5. Repeat steps 1 - 4 above for all other cells you wish to include. 
+
 ## Getting your frame printed without a 3D printer
 
 If you don’t have access to a 3D printer, you may look into the following options instead:

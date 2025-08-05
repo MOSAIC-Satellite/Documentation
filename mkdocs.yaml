@@ -98,11 +98,11 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
     - Introduction: quick_start/index.md
     - Suggested Reading: quick_start/suggested_reading.md
     - Getting Started with MOSAIC: 
-      - Overview: quick_start/getting_started/index.md
-      - Choose Components: quick_start/getting_started/choose_components.md
-      - Hookup Guide: quick_start/getting_started/hookup_guide.md
-      - Software Setup: quick_start/getting_started/software_setup.md
-      - Hardware Assembly: quick_start/getting_started/hardware_assembly.md
+      - Overview: quick_start/getting_started/overview.md
+      - Step 1 - Choose Components: quick_start/getting_started/choose_components.md
+      - Step 2 - Hookup Guide: quick_start/getting_started/hookup_guide.md
+      - Step 3 - Software Setup: quick_start/getting_started/software_setup.md
+      - Step 4 - Hardware Assembly: quick_start/getting_started/hardware_assembly.md
     - Become a Contributor: quick_start/become_contributor.md
   - Core Documentation:
     - core_documentation/index.md
