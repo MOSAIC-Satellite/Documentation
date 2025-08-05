@@ -16,7 +16,7 @@
 
     If you have all of [MOSAIC's components](https://www.mosaicsat.org/getting_mosaic/), you can start assembling your satellite in as little as 30 minutes.
 
-    [:octicons-arrow-right-24: Getting started with MOSAIC](https://www.mosaicsat.org/quick_start/getting_started/index/)
+    [:octicons-arrow-right-24: Getting started with MOSAIC](https://www.mosaicsat.org/quick_start/getting_started/)
 
 -   :fontawesome-solid-hammer:{ .lg .middle } __Become a Contributor__
 
