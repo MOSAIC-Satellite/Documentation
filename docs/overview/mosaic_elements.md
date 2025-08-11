@@ -1,6 +1,6 @@
 <figure markdown="span">
  ![Open MOSAIC](images/mosaic_all_boards.jpg){ width=50%, height=50% }
-  <figcaption>All three types of boards for the MOSAIC mocksat. From left to right: Power Board, Main Board, and ProtoBoard</figcaption>
+  <figcaption>All three types of boards for the MOSAIC mocksat. From left to right: ProtoBoard, Main Board, and Power Board</figcaption>
 </figure>
 
 MOSAIC consists of three main circuit boards and a frame. 
@@ -49,7 +49,7 @@ MOSAIC consists of three main circuit boards and a frame.
     To further simulate a space satellite, the structure of MOSAIC was chosen to adhere to the [“CubeSat” standard](https://www.cubesat.org/cubesatinfo). This is a popular standardized satellite form factor among both educators and industry alike. In the case of MOSAIC, the 1U satellite structure is 3D printable, making it relatively easy to acquire and produce.
 
     
-    ![MOSAIC Frame](images/frame.jpg)
+    ![MOSAIC Frame](images/frame.png)
 
     [:octicons-arrow-right-24: Core Documentation Link](https://www.mosaicsat.org/core_documentation/hardware/structure/) <br>
     [:octicons-arrow-right-24: GitHub Repo Link](https://github.com/MOSAIC-Satellite/frame)

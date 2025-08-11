@@ -106,7 +106,7 @@ nav: # Setting up the navigation. The below list will be tabs on left panel
     - Become a Contributor: quick_start/become_contributor.md
   - Core Documentation:
     - core_documentation/index.md
-    - Quick Reference: core_documentation/quick_reference.md
+    - Quick References: core_documentation/quick_reference.md
     - Hardware: 
       - Overview: core_documentation/hardware/index.md
       - Main Board: 

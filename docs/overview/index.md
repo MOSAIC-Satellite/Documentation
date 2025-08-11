@@ -1,7 +1,4 @@
-<figure markdown="span">
-  ![Open MOSAIC](images/mosaic_open.jpg){ width=50%, height=50% }
-  <figcaption>Open MOSAIC mocksat</figcaption>
-</figure>
+![Picture of assembled MOSAIC satellite](images/mosaic_complete.jpg)
 
 MOSAIC, or “Modular Orbital Satellite for Advanced Innovation and Curriculum,” is a type of demonstrator satellite, commonly referred to as a “mocksat” for short, which aims to help minimize the hurdles of satellite design and operation and highlight the potential for satellite projects to be a valuable tool for education.
 
@@ -35,6 +32,10 @@ This project was designed to fulfill these objectives in several ways:
         All of MOSAIC's design files and software are available on [GitHub](https://github.com/MOSAIC-Satellite) under open-source licenses. We welcome interested users and contributors to take a look and get in touch! 
 
 ## Uses
+
+- Educational tool for teaching satellite design and operations
+- Prototyping platform for designing space mission satellites
+- Payload carrier board for CubeSat mission
 
 MOSAIC can be used as a prototyping framework to help build a satellite system for a space mission or as an educational tool to teach satellite systems engineering. 
 
