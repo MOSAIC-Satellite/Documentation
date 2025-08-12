@@ -1,1 +1,1 @@
-[SmallSat Conference 2026 Proceedings Paper](https://digitalcommons.usu.edu/smallsat/2025/all2025/108/)
+[SmallSat Conference 2025 Proceedings Paper](https://digitalcommons.usu.edu/smallsat/2025/all2025/108/)
